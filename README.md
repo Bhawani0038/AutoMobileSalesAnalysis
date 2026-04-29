@@ -84,6 +84,7 @@ The dataset consists of 7 relational tables:
 - Customer Segmentation  
 - Top Customers  
 - Repeat Purchase Behavior  
+<img width="813" height="754" alt="image" src="https://github.com/user-attachments/assets/32135d53-dd5d-43a6-b942-326ceaecbd75" />
 
 ### 3. Regional Dashboard
 - Revenue by Geography  
