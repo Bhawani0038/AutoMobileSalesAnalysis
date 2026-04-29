@@ -1,248 +1,124 @@
-*B2B Sales Analytics Dashboard*
+# B2B Sales Analytics Dashboard
 
+## Overview
+This project analyzes a B2B transactional dataset to generate insights on sales performance, customer behavior, and operational efficiency. The outcome is a set of interactive dashboards for business decision-making.
 
+---
 
-**Overview**
-
-This project analyzes a B2B transactional dataset to generate insights on sales performance, customer behavior, and operational efficiency. The goal is to build interactive dashboards for sales, customer, and regional analysis.
-
-
-
-\---
-
-
-
-\## Dataset Description
-
-
-
+## Dataset Description
 The dataset consists of 7 relational tables:
 
+- Customers  
+- Employees  
+- Offices  
+- Orders  
+- Order Details  
+- Payments  
+- Products  
 
+**Time Period:** 2003–2005 (Static dataset)
 
-\- Customers
+---
 
-\- Employees
+## Objectives
 
-\- Offices
+- Analyze total revenue and profit  
+- Identify best and worst performing products  
+- Understand customer purchasing behavior  
+- Measure operational efficiency (shipping delays)  
+- Perform geographic sales analysis  
+- Build dashboards for decision-making  
 
-\- Orders
+---
 
-\- Order Details
+## Tech Stack
 
-\- Payments
+- Power BI / Excel  
+- Power Query (ETL & Data Cleaning)  
+- Power Pivot (Data Modeling)  
+- DAX (KPIs & Measures)  
 
-\- Products
+---
 
+## Data Pipeline
 
+1. **Data Extraction**  
+2. **Data Cleaning (Power Query)**
+   - Standardization  
+   - Missing value handling  
+   - Derived columns  
 
-Time Period: 2003–2005 (Static dataset)
+3. **Data Modeling (Power Pivot)**
+   - Fact & dimension tables  
+   - Relationships  
 
+4. **Data Visualization**
+   - Dashboard development  
 
+---
 
-\---
+## Feature Engineering
 
+- Revenue = Quantity × Price  
+- Profit = Revenue − Cost  
+- Profit Margin  
+- Customer Lifetime Value (approx.)  
+- Shipping Delay  
+- Customer Segmentation  
+- Order Frequency  
 
+---
 
-\## Objectives
+## Dashboards
 
+### 1. Sales Dashboard
+- Total Revenue  
+- Total Profit  
+- Sales Trends  
+- Top Products  
 
+### 2. Customer Dashboard
+- Customer Segmentation  
+- Top Customers  
+- Repeat Purchase Behavior  
 
-\- Analyze total revenue and profit
+### 3. Regional Dashboard
+- Revenue by Geography  
+- Territory Performance  
 
-\- Identify best and worst performing products
+### 4. Salesperson Dashboard
+- Sales by Employee  
+- Customer Assignments  
+- Follow-up Indicators  
 
-\- Understand customer purchasing behavior
+---
 
-\- Measure operational efficiency (shipping delays)
+## Key Insights
 
-\- Perform geographic sales analysis
+- Revenue is concentrated among a small set of customers  
+- Product performance is uneven across categories  
+- Regional sales disparities exist  
+- Shipping delays impact operational efficiency  
 
-\- Build dashboards for business decision-making
+---
 
+## Limitations
 
+- Static dataset (no real-time updates)  
+- Missing customer contact details  
+- No direct order-payment linkage  
+- Limited historical range (3 years)  
 
-\---
+---
 
+## Future Improvements
 
+- Integrate real-time data pipelines  
+- Add customer enrichment (email, firmographics)  
+- Implement predictive models (churn, demand forecasting)  
+- Introduce customer scoring (LTV, loyalty index)  
 
-\## Tech Stack
+---
 
-
-
-\- Power BI / Excel
-
-\- Power Query (Data Cleaning \& ETL)
-
-\- Power Pivot (Data Modeling)
-
-\- DAX (Measures \& KPIs)
-
-
-
-\---
-
-
-
-\## Data Pipeline
-
-
-
-1\. Data Extraction
-
-2\. Data Cleaning (Power Query)
-
-&#x20;  - Standardization
-
-&#x20;  - Missing value handling
-
-&#x20;  - Derived columns
-
-3\. Data Modeling (Power Pivot)
-
-&#x20;  - Fact \& dimension tables
-
-&#x20;  - Relationships
-
-4\. Data Visualization (Dashboard)
-
-
-
-\---
-
-
-
-\## Key Features Engineered
-
-
-
-\- Revenue = Quantity × Price
-
-\- Profit = Revenue - Cost
-
-\- Profit Margin
-
-\- Customer Lifetime Value (approx)
-
-\- Shipping Delay
-
-\- Customer Segmentation
-
-\- Order Frequency
-
-
-
-\---
-
-
-
-\## Dashboards
-
-
-
-\### 1. Sales Dashboard
-
-\- Total Revenue
-
-\- Total Profit
-
-\- Sales trends
-
-\- Top products
-
-
-
-\### 2. Customer Dashboard
-
-\- Customer segmentation
-
-\- Top customers
-
-\- Repeat purchase behavior
-
-
-
-\### 3. Regional Dashboard
-
-\- Revenue by country/state
-
-\- Territory performance
-
-
-
-\### 4. Salesperson Dashboard
-
-\- Sales by employee
-
-\- Customer assignments
-
-\- Follow-up indicators
-
-
-
-\---
-
-
-
-\## Key Insights (Expected)
-
-
-
-\- High revenue concentration among few customers
-
-\- Product performance imbalance
-
-\- Regional disparities in sales
-
-\- Shipping delays affecting operations
-
-
-
-\---
-
-
-
-\## Limitations
-
-
-
-\- No real-time data
-
-\- Missing customer contact details
-
-\- No direct order-payment linkage
-
-\- Limited time range (3 years)
-
-
-
-\---
-
-
-
-\## Future Improvements
-
-
-
-\- Integrate real-time data sources
-
-\- Add customer contact enrichment (email, website)
-
-\- Implement predictive analytics (churn, demand forecasting)
-
-\- Introduce customer loyalty scoring
-
-
-
-\---
-
-
-
-\## Author
-
-
-
-\[Bhawani Singh]
-
-
-
+## Author
+**Bhawani Singh**
