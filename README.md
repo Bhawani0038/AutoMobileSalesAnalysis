@@ -1,8 +1,8 @@
-* B2B Sales Analytics Dashboard *
+*B2B Sales Analytics Dashboard*
 
 
 
-\## Overview
+**Overview**
 
 This project analyzes a B2B transactional dataset to generate insights on sales performance, customer behavior, and operational efficiency. The goal is to build interactive dashboards for sales, customer, and regional analysis.
 
