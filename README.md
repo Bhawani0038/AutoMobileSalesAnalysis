@@ -75,7 +75,10 @@ The dataset consists of 7 relational tables:
 - Total Revenue  
 - Total Profit  
 - Sales Trends  
-- Top Products  
+- Top Products
+
+- <img width="1799" height="979" alt="image" src="https://github.com/user-attachments/assets/442f6026-aab2-4e5f-a152-4df7872d4ed2" />
+
 
 ### 2. Customer Dashboard
 - Customer Segmentation  
